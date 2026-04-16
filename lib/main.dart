@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start, // Diperbaiki dari .start
           children: [
-            const HeaderWidget( // Pastikan nama class di header_widget.dart sudah "HeaderWidget", bukan "HeaderWidgetA"
+            const HeaderWidget( // Pastikan nama class di header_widget.dart sudah "HeaderWidget"
               name: "Sunoo",
               role: "Enhypen",
               level: 9999,
